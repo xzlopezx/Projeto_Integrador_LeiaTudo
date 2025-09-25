@@ -1,8 +1,8 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="/css/imgs/ham-ico-64.png" alt="Ícone" width="32" height="32">
-                Larika
+                <img src="/css/imgs/logo.png" alt="Ícone" width="64px" height="64px" >
+                LeiaTudo
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
