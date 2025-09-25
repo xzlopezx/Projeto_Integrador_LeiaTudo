@@ -1,11 +1,3 @@
-<?php
-session_start();
-if (isset($_SESSION['usuario'])) {
-    header("Location: /");
-    exit;
-}
-?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -16,7 +8,7 @@ if (isset($_SESSION['usuario'])) {
 <body class="home-login">
     <div class="container mt-5">
         <h2>Login</h2>
-        <form action="autenticar.php" method="POST">
+        <form action="/login/autenticador.php" method="POST">
             <div class="mb-3">
                 <label for="usuario" class="form-label">Usuário</label>
                 <input type="text" name="usuario" id="usuario" class="form-control" required>

@@ -10,5 +10,5 @@ if ($usuario === 'admin' && $senha === '1234') {
     header("Location: /");
     exit;
 } else {
-    echo "<script>alert('Usuário ou senha inválidos'); window.location.href='page-top-login.php';</script>";
+    echo "<script>alert('Usuário ou senha inválidos'); window.location.href='/login/page-top-login.php';</script>";
 }
