@@ -12,7 +12,7 @@
             <div class="collapse navbar-collapse" id="navbarMain">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home Page</a>
+                        <a class="nav-link" href="#">Cadastrar E-Book</a>
                     </li>
 
                     <li class="nav-item dropdown">
