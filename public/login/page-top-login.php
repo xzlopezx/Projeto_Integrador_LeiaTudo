@@ -1,33 +1,32 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="/css/imgs/logo.png" alt="Ícone" width="64px" height="64px" >
-                LeiaTudo
-            </a>
+<?php
+session_start();
+if (isset($_SESSION['usuario'])) {
+    header("Location: /");
+    exit;
+}
+?>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarMain">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Cadastrar E-Book</a>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="menuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Menu
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="menuLink">
-                            <li><a class="dropdown-item" href="#">Hamburger</a></li>
-                            <li><a class="dropdown-item" href="#">Pizza</a></li>
-                            <li><a class="dropdown-item" href="#">Hot-Dog</a></li>
-                            <li><a class="dropdown-item" href="#">Snacks</a></li>
-                            <li><a class="dropdown-item" href="#">Batata Recheada</a></li>
-                        </ul>
-                    </li>
-                </ul>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - LeiaTudo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="home-login">
+    <div class="container mt-5">
+        <h2>Login</h2>
+        <form action="autenticar.php" method="POST">
+            <div class="mb-3">
+                <label for="usuario" class="form-label">Usuário</label>
+                <input type="text" name="usuario" id="usuario" class="form-control" required>
             </div>
-        </div>
-</nav>
+            <div class="mb-3">
+                <label for="senha" class="form-label">Senha</label>
+                <input type="password" name="senha" id="senha" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Entrar</button>
+        </form>
+    </div>
+</body>
+</html>
