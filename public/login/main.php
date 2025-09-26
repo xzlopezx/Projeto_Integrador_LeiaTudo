@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Login - LeiaTudo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/default.css"> <!-- seu CSS -->
+
 </head>
 <body class="home-login">
     <div class="container text-center mt-4">
