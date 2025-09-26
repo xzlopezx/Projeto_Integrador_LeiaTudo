@@ -16,7 +16,7 @@
             </div>
             <div class="mb-3">
                 <label for="senha" class="form-label">Senha</label>
-                <input type="password" name="senha" id="senha" class="form-control" require>
+                <input type="password" name="senha" id="senha" class="form-control" required>
             </div>
             <button type="submit" class="btn btn-primary">Entrar</button>
         </form>
