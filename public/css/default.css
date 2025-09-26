@@ -1,5 +1,5 @@
 /*Pagina inicial*/
-.home-body body{
+.home-body{
     font-family: sans-serif;
     background-color: rgb(255, 255, 255);
 }
@@ -65,3 +65,12 @@
 }
 /*---------------------------------------------*/
 
+/*Login Tela*/
+.home-login{
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+.form-label {
+  width: 150px;   /* ajuste como quiser */
+  display: inline-block; /* precisa disso pra respeitar a largura */
+}
