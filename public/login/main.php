@@ -8,7 +8,8 @@
 <body class="home-login">
     <div class="container mt-5">
         <h2>Login</h2>
-        <form action="/login/autenticador.php" method="POST">
+        <!-- redireciona para main.php -->
+        <form action="/home/main.php" method="GET">
             <div class="mb-3">
                 <label for="usuario" class="form-label">Usuário</label>
                 <input type="text" name="usuario" id="usuario" class="form-control" required>

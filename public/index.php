@@ -8,10 +8,7 @@
             <link href="/css/default.css" rel="stylesheet" />
         </head>
         <body class="home-body">
-            <?php include 'includes/page-top.php'; ?>
-            <?php include 'includes/page-carousel.php'; ?>
-            <?php include 'includes/page-main.php'; ?>
-            <?php include 'includes/page-bottom.php'; ?>
+            <?php include 'login/main.php'; ?>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
         </body>
 

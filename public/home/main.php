@@ -1,7 +1,15 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>LeiaTudo - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="/css/imgs/logo.png" alt="Ícone" width="64px" height="64px" >
+                <img src="/css/imgs/logo.png" alt="Ícone" width="64" height="64">
                 LeiaTudo
             </a>
 
@@ -30,4 +38,8 @@
                 </ul>
             </div>
         </div>
-</nav>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
